@@ -1,0 +1,10 @@
+issue unique social security number
+social security number starts with 2 
+sc : store conditional 
+ll: load link
+ll and sc are two different instructions 
+Store conditional is defined to both the value of a register in member and to change that register to a 1 if it succeeds and to a 0 if it fails
+Load ~ read
+Store ~ write
+Inter-process communication ~ access 
+Shared memory 
