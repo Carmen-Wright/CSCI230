@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.3">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">- [ ] c-program vs java program<span class="Apple-converted-space"> </span></p>
+<p class="p1">- [ ] java is a complete sophisticated system<span class="Apple-converted-space"> </span></p>
+<p class="p1">- [ ] java virtual machine, layer of software<span class="Apple-converted-space"> </span></p>
+<p class="p1">- [ ] c program is needed , it can directly manipulate memory<span class="Apple-converted-space"> </span></p>
+<p class="p2"><br></p>
+<p class="p1">int * p = &amp;a; Declare a pointer-type of variable name p, and initialize to the address of variable a. In a declaration, "*" stands for "pointer-type". Afterwards, "*" means"de-reference", retrieving the value at the memory location, using the syntax *p.<span class="Apple-converted-space"> </span></p>
+<p class="p1">int main() { int a = 0; int *p = &amp;a; printf("%ld", ((long)(p))); return 0; } 140722421153132</p>
+<p class="p1">*(p+66) = p[66] stands for starting at offset 66 position,read the value at the new location<span class="Apple-converted-space"> </span></p>
+<p class="p1">int main() { int a = 0; int *p = &amp;a; printf("%ld\n", (long)(p)); *p = 3; printf("%i", (*p)); p = (int*)malloc(100*sizeof(int)); printf("%i\n", p[0]); p[0]= 5; p[1]=6; p[99]=5656; *(p:99) = 5659; printf("%i\n", p[100]); return 0; }</p>
+<p class="p1">malloc: memory location;</p>
+</body>
+</html>
