@@ -1,0 +1,10 @@
+- [ ] c-program vs java program 
+- [ ] java is a complete sophisticated system 
+- [ ] java virtual machine, layer of software 
+- [ ] c program is needed , it can directly manipulate memory 
+
+int * p = &a; Declare a pointer-type of variable name p, and initialize to the address of variable a. In a declaration, "*" stands for "pointer-type". Afterwards, "*" means"de-reference", retrieving the value at the memory location, using the syntax *p. 
+int main() { int a = 0; int *p = &a; printf("%ld", ((long)(p))); return 0; } 140722421153132
+*(p+66) = p[66] stands for starting at offset 66 position,read the value at the new location 
+int main() { int a = 0; int *p = &a; printf("%ld\n", (long)(p)); *p = 3; printf("%i", (*p)); p = (int*)malloc(100*sizeof(int)); printf("%i\n", p[0]); p[0]= 5; p[1]=6; p[99]=5656; *(p:99) = 5659; printf("%i\n", p[100]); return 0; }
+malloc: memory location;
