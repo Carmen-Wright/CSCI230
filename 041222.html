@@ -1,0 +1,18 @@
+j 26-but-number
+
+to create an effective address that is as large as possible
+
+address * 4 
+   10001000000100000000001000000001000000000
+
+PC+4 -> 10001000000100000000001000000001000000000
+
+This scheme make the eff. address to be 32-bit, quite large 
+
+16 but number: 1000000000100001 (leading 1 determines this number is negative)
+sign extension: (keep
+sign/preserve): 111111111111110000000000000010000001
+(this number is negative 32-bit)
+if original positive:01000000000001000001
+sign extension: 
+00000000000000001000000000000001
